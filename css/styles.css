@@ -87,3 +87,22 @@ h3 {
 	border: 1px solid #DCE0E5;
 
 }
+
+@media screen and (max-width: 760px) {
+ .bio img {
+	display: none;
+}
+.bio p {
+	width: 90%;
+}
+.work {
+    width: 90%;
+    margin: 0 0 0 32px;
+}
+.work img{
+    width: 100%;
+}
+.header img {
+    margin: 0 24px 0 32px;
+}
+}
