@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap');
+
+body {
+	width: 100%;
+	max-width: 800px;
+	display: block;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	background: #fff;
+}
+
+h1 {
+	font-size: 32px;
+	font-family: 'Merriweather', serif;
+	color: #333;
+	padding-bottom: 16px;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: 'Merriweather', serif;
+	color: #595959;
+	margin-top: 24px;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	color: #595959;
+	margin-bottom: 100px;
+}
+
+
+.bio img {
+	width: 15%;
+	float: left;
+	display: inline-block;
+	margin: -100px 0 0 -50px;
+}
+.bio p {
+	width: 78%;
+	float: left;
+	margin: 0 0 0 32px;
+	color: #232323;
+	line-height: 24px;
+}
+
+.bio h1 {
+	width: 78%;
+	float: left;
+	margin: 0 0 0 32px;
+
+}
+
+.header, .bio, .work {
+	width: 100%;
+	display: block;
+	float: left;
+	margin: 16px auto;
+
+}
+
+.header img {
+	width: 20%;
+	margin: 0 24px 0 100px;
+	display: inline-block;
+	float: left;
+
+}
+
+.header {
+	margin: 10% 0 24px 0;
+}
+
+.work {
+	width: 78%;
+	float: left;
+	margin: 0 0 0 100px;
+	color: #232323;
+	line-height: 24px;
+}
+
+.work a img{
+	margin: 0 0 16px 0;
+	padding: 0;
+	border-radius: 12px;
+	border: 1px solid #DCE0E5;
+
+}
